@@ -58,10 +58,39 @@ python -m spacy download en_core_web_sm
 3. Run application:
 streamlit run app.py
 
+## 🚀 Deployment
+
+Users can deploy this application using Streamlit Cloud or Render.
+
+---
+
+### ⭐ Deploy on Streamlit Cloud (Recommended)
+
+1. Fork or clone this repository to your GitHub account.
+2. Go to https://share.streamlit.io
+3. Click "New App".
+4. Select your repository.
+5. Choose branch: main
+6. Set file path to: app.py
+7. Click Deploy.
+
+Make sure requirements.txt is present so dependencies install automatically.
+
+---
+
+###  Deploy on Render
+1. Push project to GitHub.
+2. Go to https://render.com and create a new Web Service.
+3. Connect your GitHub repository.
+4. Set Environment to Python.
+Build Command:pip install -r requirements.txt
+Start Command:streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+
+5. Click Deploy.
+
 ---
 ##  Approach
 The system applies rule-based NLP using spaCy to interpret user intent and extract entities from natural language commands. Streamlit session state maintains the shopping list during interaction. Browser-based voice input improves usability by enabling hands-free command execution.
-
 ---
 ## Future Improvements
 
