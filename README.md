@@ -1,9 +1,5 @@
 # Voice_command_shopping_assistant
 Voice Command Shopping Assistant is an NLP-based application that allows users to manage shopping lists using natural language commands. It identifies intent, extracts items, provides smart suggestions, auto-categorizes products, and updates lists in real time using a Streamlit interface.
-
-# 🎤 Voice NLP Shopping Assistant
-A browser-based Voice Command Shopping Assistant built using NLP and Streamlit. This application allows users to manage their shopping list using natural language voice or text commands. The system interprets user intent, extracts items and quantities, provides smart suggestions, and auto-categorizes products.
-
 ---
 ##  Features
 - Voice-based commands using browser microphone  
