@@ -49,14 +49,13 @@ voice_shopping_assistant/
 
 ##  Installation
 1. Clone repository:
-git clone <your_repo_link>
+git clone [<your_repo_link>](https://github.com/dollpreetkaur/Voice_shopping_assistant)
 
 2. Install dependencies:
 pip install streamlit spacy
 python -m spacy download en_core_web_sm
 
 3. Run application:
-
 streamlit run app.py
 
 ---
