@@ -44,11 +44,10 @@ Suggestions and product categories are stored in predefined datasets to simulate
 
 ## Project Structure
 voice_shopping_assistant/
-│
-├── app.py # Main Streamlit application
-├── nlp_utils.py # NLP parsing logic
-├── data.py # categories, suggestions, products
-└── README.md
+-app.py # Main Streamlit application
+-nlp_utils.py # NLP parsing logic
+-data.py # categories, suggestions, products
+-README.md
 
 ---
 
